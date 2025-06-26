@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import AboutMe from './components/AboutMe'
 import Products from './components/Products'
 import Experience from './components/Experience'
-import SkillsGrid from './components/SkillsGrid'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Technologies from './components/Technologies'
 
@@ -61,7 +61,7 @@ function App() {
         <section id="contact">
           <div className="min-h-[300px] flex items-center justify-center text-gray-400 text-xl">Contact section (準備中)</div>
         </section>
-        <SkillsGrid />
+        <Contact />
         <Footer />
       </main>
     </div>

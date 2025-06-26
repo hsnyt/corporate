@@ -3,7 +3,6 @@ import { FC } from 'react';
 const categories = [
   {
     title: 'Frontend Development',
-    color: 'text-blue-300',
     skills: [
       { name: 'React', img: '/images/react.png' },
       { name: 'TypeScript', img: '/images/ts.png' },
@@ -14,14 +13,12 @@ const categories = [
   },
   {
     title: 'Styling & UI',
-    color: 'text-pink-300',
     skills: [
       { name: 'Tailwind CSS', img: '/images/tailwind.png' },
     ],
   },
   {
     title: 'Backend Development',
-    color: 'text-green-300',
     skills: [
       { name: 'Python', img: '/images/python.png' },
       { name: 'PHP', img: '/images/php.png' },
@@ -30,14 +27,12 @@ const categories = [
   },
   {
     title: 'Database',
-    color: 'text-yellow-300',
     skills: [
       { name: 'MySQL', img: '/images/mysql.png' },
     ],
   },
   {
     title: 'Infrastructure',
-    color: 'text-purple-300',
     skills: [
       { name: 'AWS', img: '/images/aws.png' },
       { name: 'GCP', img: '/images/gcp.png' },
@@ -46,7 +41,6 @@ const categories = [
   },
   {
     title: 'Development Tools',
-    color: 'text-cyan-300',
     skills: [
       { name: 'Stripe', img: '/images/stripe.png' },
       { name: 'Zapier', img: '/images/zapier.png' },
@@ -57,7 +51,6 @@ const categories = [
   },
   {
     title: 'Design Tools',
-    color: 'text-orange-300',
     skills: [
       { name: 'Figma', img: '/images/figma.png' },
       { name: 'Photoshop', img: '/images/photoshop.png' },
@@ -65,7 +58,6 @@ const categories = [
   },
   {
     title: 'Others',
-    color: 'text-gray-300',
     skills: [
       { name: 'Notion', img: '/images/notion.png' },
       { name: 'Salesforce', img: '/images/salesforce.png' },
@@ -81,7 +73,7 @@ const Skills: FC = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {categories.map((cat) => (
           <div key={cat.title} className="flex flex-col">
-            <h4 className={`text-lg md:text-xl font-bold mb-4 ${cat.color} text-center`}>{cat.title}</h4>
+            <h4 className={`text-lg md:text-xl font-bold mb-4 text-center`}>{cat.title}</h4>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
               {cat.skills.map((skill) => (
                 <div key={skill.name} className="aspect-square bg-gray-900/50 backdrop-blur-sm rounded-lg flex flex-col items-center justify-center p-4 hover:bg-gray-800/70 hover:scale-105 transition-all duration-500 cursor-pointer border border-gray-800/50 hover:border-gray-700 group">

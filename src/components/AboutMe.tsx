@@ -1,9 +1,9 @@
 import { FC } from 'react';
 
 const AboutMe: FC = () => (
-    <div>
+    <div className="bg-gradient-to-b from-gray-900/50 to-gray-900/30 py-32">
         {/* About Me セクション */}
-        <section className="px-6 py-32 bg-gradient-to-b from-gray-900/50 to-gray-900/30 relative overflow-hidden">
+        <section className="px-6 relative overflow-hidden">
             <div className="max-w-7xl mx-auto text-center relative z-10">
             <h3 className="text-2xl md:text-4xl font-black mb-12 text-gray-400">About me</h3>
             <h2 className="text-8xl md:text-[12rem] font-black leading-none">HSNYT</h2>

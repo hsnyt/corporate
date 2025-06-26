@@ -12,7 +12,7 @@ const Experience: FC = () => (
           <p className="text-lg">description</p>
         </div>
         <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
-          <h4 className="text-2xl font-bold mb-2">Freelance Developer</h4>
+          <h4 className="text-2xl font-bold mb-2">Freelance Developer 💻</h4>
           <p className="text-gray-400 mb-4">2023.10 - 2024.04</p>
           <p className="text-lg">description</p>
         </div>
@@ -22,8 +22,13 @@ const Experience: FC = () => (
           <p className="text-lg">description</p>
         </div>
         <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
-          <h4 className="text-2xl font-bold mb-2">Clinical engineering student</h4>
+          <h4 className="text-2xl font-bold mb-2">Clinical engineering student 👨‍⚕️</h4>
           <p className="text-gray-400 mb-4">2018.04 - 2022.03</p>
+          <p className="text-lg">description</p>
+        </div>
+        <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
+          <h4 className="text-2xl font-bold mb-2">Born 👶</h4>
+          <p className="text-gray-400 mb-4">1999</p>
           <p className="text-lg">description</p>
         </div>
       </div>

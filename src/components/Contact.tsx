@@ -35,9 +35,9 @@ const Contact: FC = () => {
           />
           <button
             type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded"
+            className="bg-white text-black font-bold py-2 px-6 rounded"
           >
-            メールで送信
+            Submit
           </button>
         </form>
       </div>

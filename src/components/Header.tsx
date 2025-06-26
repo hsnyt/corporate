@@ -13,7 +13,7 @@ const Header: FC<HeaderProps> = ({ currentTime, formatTime }) => {
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center space-x-8">
           <a href="/">
-            <h1 className="text-2xl font-black tracking-tight hover:text-gray-300 transition-colors cursor-pointer">Yuta Hoshino</h1>
+            <h1 className="text-2xl font-black tracking-tight hover:text-gray-300 transition-colors cursor-pointer">hsnyt</h1>
           </a>
           <div className="text-sm text-gray-400 font-mono">
             Tokyo, {formatTime(currentTime)}

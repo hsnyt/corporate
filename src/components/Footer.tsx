@@ -40,7 +40,8 @@ const Footer: FC = () => (
             </div>
         </section>
         <div className="max-w-7xl mx-auto text-center">
-            <p className="text-gray-500 font-mono">@2023 -  hsnyt</p>
+        <p className="text-gray-500 font-mono pb-5">Thankyou for comming</p>
+            <p className="text-gray-500">@2023 -  hsnyt</p>
         </div>
     </footer>
 );

@@ -7,7 +7,7 @@ import Products from './components/Products'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Technologies from './components/Technologies'
+import Skills from './components/Skills'
 
 function App() {
   const [currentTime, setCurrentTime] = useState(new Date())
@@ -50,7 +50,7 @@ function App() {
           <Experience />
         </section>
         <section id="skills">
-          <Technologies />
+          <Skills />
         </section>
         <section id="products">
           <Products />
@@ -59,9 +59,8 @@ function App() {
           <div className="min-h-[300px] flex items-center justify-center text-gray-400 text-xl">Blog section (準備中)</div>
         </section>
         <section id="contact">
-          <div className="min-h-[300px] flex items-center justify-center text-gray-400 text-xl">Contact section (準備中)</div>
+          <Contact />
         </section>
-        <Contact />
         <Footer />
       </main>
     </div>

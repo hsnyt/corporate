@@ -6,9 +6,15 @@ const AboutMe: FC = () => (
         <section className="px-6 relative overflow-hidden">
             <div className="max-w-7xl mx-auto text-center relative z-10">
             <h3 className="text-2xl md:text-4xl font-black mb-12 text-gray-400">About me</h3>
-            <h2 className="text-8xl md:text-[12rem] font-black leading-none">HSNYT</h2>
+            <div className="flex justify-center mb-8">
+              <img 
+                src="/images/me.png" 
+                alt="HSNYT Logo" 
+                className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover border-4 border-gray-800 shadow-2xl"
+              />
+            </div>
             <p className="text-lg md:text-xl text-gray-400 mt-8 max-w-3xl mx-auto">
-                Passionate about creating digital experiences that make a difference.
+            Let me tell you a little about myself.
             </p>
             </div>
             {/* Background decoration */}

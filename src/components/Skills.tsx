@@ -22,7 +22,7 @@ const categories = [
     skills: [
       { name: 'Python', img: '/images/python.png' },
       { name: 'PHP', img: '/images/php.png' },
-      { name: 'C', img: '/images/c.png' },
+      { name: 'C#', img: '/images/c.png' },
     ],
   },
   {

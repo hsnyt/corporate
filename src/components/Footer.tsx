@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = () => (
     <footer className="px-6 py-12 border-t border-gray-800/50">
-        <section className="px-6 pb-32 from-gray-900/30 to-black">
+        {/* <section className="px-6 pb-32 from-gray-900/30 to-black">
             <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-12">
                 {[
@@ -38,7 +38,7 @@ const Footer: FC = () => (
                 ))}
             </div>
             </div>
-        </section>
+        </section> */}
         <div className="max-w-7xl mx-auto text-center">
         <p className="text-gray-500 font-mono pb-5">Thankyou for comming</p>
             <p className="text-gray-500">@2023 -  hsnyt</p>

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 const Experience: FC = () => (
-  <section className="px-6 py-32">
+  <section className="px-6">
     <div className="max-w-7xl mx-auto">
       <h3 className="text-4xl md:text-6xl font-black mb-4">Experience</h3>
       <h4 className="text-2xl md:text-4xl font-bold mb-8 text-gray-400">Career</h4>

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import ParallaxText from './components/ParallaxText'
 import Hero from './components/Hero'
-import AboutMe from './components/AboutMe'
+import Profile from './components/Profile'
 import Products from './components/Products'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
@@ -44,7 +44,7 @@ function App() {
       <main className="pt-20">
         <Hero />
         <section id="about">
-          <AboutMe />
+          <Profile />
         </section>
         <section id="experience">
           <Experience />

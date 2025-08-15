@@ -12,7 +12,7 @@ const Contact: FC = () => {
   };
 
   return (
-    <section className="px-6 py-32 bg-gradient-to-b from-gray-900/30 to-black">
+    <section className="px-6 py-20 bg-gradient-to-b from-gray-900/30 to-black">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-4xl md:text-6xl font-black mb-4">Contact</h3>
         <p className="text-lg md:text-2xl mb-8 text-gray-300 max-w-4xl">

@@ -3,8 +3,7 @@ import { FC } from 'react';
 const Experience: FC = () => (
   <section className="px-6">
     <div className="max-w-7xl mx-auto">
-      <h3 className="text-4xl md:text-6xl font-black mb-4">Experience</h3>
-      <h4 className="text-2xl md:text-4xl font-bold mb-8 text-gray-400">Career</h4>
+      <h3 className="text-4xl md:text-6xl font-black mb-4">Career</h3>
       {/* <h4 className="text-2xl md:text-4xl font-bold mb-8 text-gray-400">What I Do</h4> */}
       <div className="space-y-12">
         <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">

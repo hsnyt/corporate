@@ -68,7 +68,7 @@ const categories = [
 
 const Skills: FC = () => (
   <>
-    <section className="px-6 py-20 bg-gray-900/30">
+    <section className="px-6 py-20">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-4xl md:text-6xl font-black mb-4">Skills</h3>
         <h4 className="text-lg md:text-2xl font-bold mb-8 text-gray-400">What I can do</h4>

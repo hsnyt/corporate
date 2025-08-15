@@ -13,7 +13,7 @@ const Ability: FC = () => (
                             <p className="text-sm text-gray-500 mb-4 tracking-wider">
                                 データドリブン × 爆速実装
                             </p>
-                            <p className="text-lg md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
+                            <p className="text-sm md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
                                 データドリブンな判断指針で施策を設計・実行してきました。
                                 ただ数字を追うだけでなく、UIや通知文の細部までこだわり、他にない魅力の伝え方を心がけています。
                             </p>
@@ -39,7 +39,7 @@ const Ability: FC = () => (
                             <p className="text-sm text-gray-500 mb-4 tracking-wider">
                                 UXの改善と業務システム開発・運用・保守
                             </p>
-                            <p className="text-lg md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
+                            <p className="text-sm md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
                                 LINEを活用したユーザー体験の改善に取り組み、常にユーザーファーストな体験を提供しています。
                                 また、プロダクトを支える業務システムの設計・開発・運用・保守も担当し、データ管理や社内プロセスの効率化を推進しています。
                                 フロントからバックエンドまで幅広く手を動かし、プロジェクトを着実に前進させます。

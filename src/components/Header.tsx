@@ -22,7 +22,6 @@ const Header: FC<HeaderProps> = ({ currentTime, formatTime }) => {
         {/* PC用ナビゲーション */}
         <nav className="hidden md:flex space-x-8">
           <a href="#about" className="text-sm font-medium hover:text-gray-300 transition-all duration-300 hover:scale-105">About</a>
-          <a href="#experience" className="text-sm font-medium hover:text-gray-300 transition-all duration-300 hover:scale-105">Experience</a>
           <a href="#skills" className="text-sm font-medium hover:text-gray-300 transition-all duration-300 hover:scale-105">Skills</a>
           <a href="#products" className="text-sm font-medium hover:text-gray-300 transition-all duration-300 hover:scale-105">Product</a>
           <a href="#blog" className="text-sm font-medium hover:text-gray-300 transition-all duration-300 hover:scale-105">Blog</a>

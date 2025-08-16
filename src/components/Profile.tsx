@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 const Profile: FC = () => (
-    <div className="pt-10">
+    <div className="mt-10">
         {/* About Me セクション */}
         <section className="px-6 relative overflow-hidden">
             <div className="max-w-7xl mx-auto text-center relative z-10">

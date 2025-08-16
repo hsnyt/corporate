@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
+import Blog from "./components/Blog.tsx";
 
 function App() {
   const [currentTime, setCurrentTime] = useState(new Date())
@@ -56,7 +57,7 @@ function App() {
           <Products />
         </section>
         <section id="blog">
-          <div className="min-h-[300px] flex items-center justify-center text-gray-400 text-xl">Blog section (準備中)</div>
+          <Blog />
         </section>
         <section id="contact">
           <Contact />

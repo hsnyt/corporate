@@ -1,10 +1,7 @@
 import { FC } from 'react';
 
 const productList = [
-  { name: 'WEB APPLICATION', img: '/images/production/1.png' },
-  { name: 'E-COMMERCE SITE' },
-  { name: 'MOBILE APP' },
-  { name: 'API DEVELOPMENT' },
+  { name: 'E-COMMERCE SITE', img: null },
 ];
 
 const Products: FC = () => (

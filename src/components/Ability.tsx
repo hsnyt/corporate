@@ -11,7 +11,7 @@ const Ability: FC = () => (
                         <div className="space-y-3">
                             <h3 className="text-4xl md:text-6xl font-black mb-4 text-gray-500 group-hover:text-orange-400 transition-colors duration-500">Growth Hack</h3>
                             <p className="text-sm text-gray-500 mb-4 tracking-wider">
-                                データドリブン × 爆速実装
+                                マーケターと手を取り合い、認知を強化するシステムを開発
                             </p>
                             <p className="text-sm md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
                                 データドリブンな判断指針で施策を設計・実行してきました。
@@ -42,7 +42,7 @@ const Ability: FC = () => (
                             <p className="text-sm md:text-xl leading-relaxed text-gray-500 group-hover:text-white transition-colors duration-500">
                                 LINEを活用したユーザー体験の改善に取り組み、常にユーザーファーストな体験を提供しています。
                                 また、プロダクトを支える業務システムの設計・開発・運用・保守も担当し、データ管理や社内プロセスの効率化を推進しています。
-                                フロントからバックエンドまで幅広く手を動かし、プロジェクトを着実に前進させます。
+                                フロントからバックエンドまで幅広く手を動かし、プロジェクトを前進させます。
                             </p>
                         </div>
                     </div>

@@ -16,7 +16,7 @@ const Blog: FC = () => {
             <div className="max-w-7xl mx-auto">
                 <h3 className="text-4xl md:text-6xl font-black mb-4">Technical Blog</h3>
             </div>
-            <div className="pt-20 flex items-center justify-center text-gray-400 text-xl">Blog section (準備中)</div>
+            <div className="pt-20 flex items-center justify-center text-gray-400 text-xl">COMING SOON</div>
         </section>
     );
 };

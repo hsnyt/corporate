@@ -10,7 +10,7 @@ const Experience: FC = () => (
             2023.10 - Present
           </p>
           <p className="text-sm md:text-lg">
-            オーラルテック領域の企業で、エンドユーザー向けのLINE内体験、業務システムCRMの企画立案・開発・保守までを担当
+            エンドユーザー向けのLINE内体験、業務システムCRMの企画立案・開発・保守までを担当
           </p>
         </div>
         <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
@@ -34,10 +34,6 @@ const Experience: FC = () => (
           <p className="text-sm md:text-lg">
             看護師の母の影響から、臨床工学技士を目指す
           </p>
-        </div>
-        <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
-          <h4 className="text-xl md:text-2xl font-bold mb-2">Born</h4>
-          <p className="text-gray-400 mb-4 text-sm md:text-md">1999.05</p>
         </div>
       </div>
     </div>

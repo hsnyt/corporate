@@ -58,7 +58,7 @@ const categories = [
     skills: [
       { name: "Notion", img: "/images/notion.png" },
       { name: "Salesforce", img: "/images/salesforce.png" },
-      { name: "JetBrains", img: "/images/jetbrains.webp" },
+      { name: "JetBrains", img: "/images/jetbrains.png" },
     ],
   },
 ];

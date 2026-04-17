@@ -32,7 +32,7 @@ const Experience: FC = () => (
             2018.04 - 2022.03
           </p>
           <p className="text-sm md:text-lg">
-            看護師の母の影響から、臨床工学技士を目指す
+            臨床工学技士を目指す
           </p>
         </div>
       </div>

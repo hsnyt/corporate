@@ -26,7 +26,7 @@ const Experience: FC = () => (
         </div>
         <div className="border-l-2 border-gray-800 pl-8 hover:border-gray-600 transition-colors duration-300">
           <h4 className="text-xl md:text-2xl font-bold mb-2">
-            Clinical Engineering Student 👨‍⚕️
+            Clinical Engineering Student
           </h4>
           <p className="text-gray-400 mb-4 text-sm md:text-md">
             2018.04 - 2022.03

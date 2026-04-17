@@ -44,21 +44,21 @@ function App() {
       {/*<ParallaxText scrollY={scrollY} />*/}
       <main className="pt-20">
         <Hero />
-        <section id="about">
-          <Profile />
-        </section>
+        {/*<section id="about">*/}
+        {/*  <Profile />*/}
+        {/*</section>*/}
         <section id="experience">
           <Experience />
         </section>
-        <section id="skills">
-          <Skills />
-        </section>
+        {/*<section id="skills">*/}
+        {/*  <Skills />*/}
+        {/*</section>*/}
         <section id="products">
           <Products />
         </section>
-        <section id="blog">
-          <Blog />
-        </section>
+        {/*<section id="blog">*/}
+        {/*  <Blog />*/}
+        {/*</section>*/}
         <section id="contact">
           <Contact />
         </section>
